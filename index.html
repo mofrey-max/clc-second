@@ -1,69 +1,60 @@
-<!Doctype html>
 <html>
 <head>
 <title>html class</title>
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="style.css"
 </head>
 <body>
+<div id="wrapper">
+    <header id="head">
+        <h1> Learning Flexbox</h1>
+    </header>
+    <nav id="navigation">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="new">
+        <section id="main">
+            <article>
+                <header>
+                    <hgroup>
+                    <h1>Welcome</h1>
+                    <h2>Berlin</h2>
+                    </hgroup>
+                </header>
+                <p> Hello world</p>
+                <footer>
+                    Smackdown
+                </footer>
+            </article>
 
-<nav id="navigation">
-<ul>
-<li><a href="index.html">Home</a></li> 
-<li><a href="about.html">About</a></li> 
-<li><a href="contact.html">Contact</a></li>
-</ul>
-</nav>
+            <article>
+                <header>
+                    <hgroup>
+                    <h1>Welcome</h1>
+                    <h2>Berlin</h2>
+                    </hgroup>
+                </header>
+                <p> Hello world</p>
+                <footer>
+                    Smackdown
+                </footer>
+            </article>
+        </section>
+        <aside id="aside_box">
+            <h1>New Updates</h1>
+            <marquee direction="up">
+            In the top I have a navigation bar with elements for home, about, faq, contact, login and register
 
-<h2>Understanding List and divs</h2>
-<div id="first">
-<p> Trending stack 2020 </p>
-<p> Learning code simplest way as possible  </p>
-<table border="2">
-<th colspan="3">Three main stacks a developer suppose to know</th>
-<tr>
-<td>
-Angular
-</td>
-<td>
-Firebase
-</td>
-<td>
-Nest
-</td>
-</tr>
-<tr>
-<td>
-Vue
-</td>
-<td>
-Oracle
-</td>
-<td>
-Flutter
-</td>
-</tr>
-<tr>
-<td>
-Heroku
-</td>
-<td>
-Django
-</td>
-<td>
-Ionic
-</td>
-</tr>
-</table>
-
-</div>
-<div class="second">
-<p> Trending stack 2020 </p>
-<p> Walla 2020 </p>
-</div>
-
-
-<div style="background-color:orange">
-<h2>Footer Section</h2>
+            I would like to move the login and register elements to the right of the navigation bar so the login drop-down menu looks nicer
+            </marquee>
+        </aside>
+    </div>
+    <footer id="copyright">
+     CLC @ 2020
+    </footer>
 </div>
 </body>
 </html>
