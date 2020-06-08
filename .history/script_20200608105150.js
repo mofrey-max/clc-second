@@ -12,4 +12,7 @@ function multiply(){
     document.calculator.total.value=c
 }
 
+let number1 = 23;
+let number2 = 12;
+
 

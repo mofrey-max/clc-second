@@ -11,5 +11,3 @@ function multiply(){
     c=a*b
     document.calculator.total.value=c
 }
-
-
