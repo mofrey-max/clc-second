@@ -45,53 +45,33 @@
                     Smackdown
                 </footer>
             </article>
-
-            <!-- Here we use fieldset form element to create a form -->
-            <br>
-            <h1><hr></h1>
-            <br>
+            <form action="/action_page.php">
             <fieldset>
-                <legend>Registration Form</legend>
-                <table>
-                    <tr>
-                        <td>First Name:</td>
-                        <td><input type="text" name="fname" onkeyup="register()" id="fname"></td>
-                        <td><div id="mname"></div></td>
-                    </tr>
-                    <tr>
-                        <td>Last Name:</td>
-                        <td><input type="text" name="lname" onkeyup="register()" id="lname"></td>
-                        <td><div id="mlname"></div></td>
-                    </tr>
-                    <tr>
-                        <td>Surname:</td>
-                        <td><input type="text" name="sname" onkeyup="register()" id="sname"></td>
-                        <td><div id="msname"></div></td>
-                    </tr>
-                    <tr>
-                        <td>Email:</td>
-                        <td><input type="text" name="email" onkeyup="register()" id="email"></td>
-                        <td><div id="memail"></div></td>
-                    </tr>
-                    <tr>
-                        <td>Phone Number:</td>
-                        <td><input type="text" name="phonenumber" onkeyup="register()" id="phonenumber"></td>
-                        <td><div id="mphonenumber"></div></td>
-                    </tr>
-                    <tr>
-                        <td>Password:</td>
-                        <td><input type="text" name="password" onkeyup="pass()" id="password"></td>
-                        <td><div id="mpassword"></div></td>
-                    </tr>
-                    <tr>
-                        <td> Confirm Password:</td>
-                        <td><input type="text" name="cpassword" onkeyup="pass()" id="cpassword"></td>
-                        <td><div id="mcpassword"></div></td>
-                    </tr>
-                </table>
-                <input type="button" value="submit"/>
+                <legend>Personal Profile</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <input type="submit" value="Submit">
             </fieldset>
+            </form>
 
+            <form>
+		<table border="1">
+				<tr><td>Name:</td><td><input type="text" name="name" id="name" onkeyup="register()" /></td><td><div id="mname"></div></td></tr>
+				<tr><td>Last Name:</td><td><input type="text" name="lname" id="lname" onkeyup="register()" /></td><td><div id="mlname"></div></td></tr>
+				<tr><td>Email:</td><td><input type="text" name="email" id="email" onkeyup="register()" /></td><td><div id="memail"></div></td></tr>
+				<tr><td>Password:</td><td><input type="password" name="password" id="password" onkeyup="register()" /></td><td><div id="mpassword"></div></td></tr>
+				<tr><td>Confirm Password:</td><td><input type="password" name="cpassword" id="cpassword" onkeyup="pass()" /></td><td><div id="mcpassword"></div></td></tr>
+		</table>
+		<br />
+<input type="button" name="submit" value="submit" />
+
+</form>
         </section>
         <aside id="aside_box">
         <div>
@@ -109,7 +89,25 @@
         </form>
         <br>
         <div id="form">
+        <form>
         
+        <br>
+        Select from the  Menu:<br>
+        Angular:<input type="checkbox">
+        Vue:<input type="checkbox">
+        Nodejs:<input type="checkbox">
+        Select your favourite Version control system platform: <br>
+        <select>
+            <option>select your payment method</option>
+            <option>Mastercard</option>
+            <option>Verve</option>
+            <option>Express</option>
+            <option>Unified</option>
+        <select>
+        <br>
+        <br>
+        <button type="submit" value="Submit" >Submit</button>
+        </form>
         </div>
             <h1>New Updates</h1>
             <marquee direction="up">

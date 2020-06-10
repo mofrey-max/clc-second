@@ -45,18 +45,13 @@
                     Smackdown
                 </footer>
             </article>
-
-            <!-- Here we use fieldset form element to create a form -->
-            <br>
-            <h1><hr></h1>
-            <br>
             <fieldset>
                 <legend>Registration Form</legend>
                 <table>
                     <tr>
                         <td>First Name:</td>
                         <td><input type="text" name="fname" onkeyup="register()" id="fname"></td>
-                        <td><div id="mname"></div></td>
+                        <td><div id="mfname"></div></td>
                     </tr>
                     <tr>
                         <td>Last Name:</td>
@@ -80,16 +75,15 @@
                     </tr>
                     <tr>
                         <td>Password:</td>
-                        <td><input type="text" name="password" onkeyup="pass()" id="password"></td>
+                        <td><input type="text" name="password" onkeyup="register()" id="password"></td>
                         <td><div id="mpassword"></div></td>
                     </tr>
                     <tr>
                         <td> Confirm Password:</td>
-                        <td><input type="text" name="cpassword" onkeyup="pass()" id="cpassword"></td>
+                        <td><input type="text" name="cpassword" onkeyup="register()" id="cpassword"></td>
                         <td><div id="mcpassword"></div></td>
                     </tr>
                 </table>
-                <input type="button" value="submit"/>
             </fieldset>
 
         </section>

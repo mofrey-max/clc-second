@@ -25,19 +25,9 @@ function test(x,y){
 
 //document.write(test(5,5))
 
-function validate(){
-    if(isNAN(number1, number2)){
-        document.getElementById(number1).innerHTML="Enter numeric value only";
-        document.getElementById(number2).innerHTML="Enter numeric value only";
 
-        return false
 
-    }else{
-        return true
-    }
-}
-
-/* function category(young, old, youngest, older){
+function category(young, old, youngest, older){
     this.young = young;
     this.old = old;
     this.youngest = youngest;
@@ -46,5 +36,5 @@ function validate(){
 
 
 let  section = new category("25", "45", )
-document.write("Category"+section.young) */
+document.write("Category"+this.young)
 
